@@ -8,7 +8,7 @@ Created on Wed Feb 19 00:56:16 2020
 
 import pandas as pd
 import numpy as np
-from dataset_property_new import nonlinearity_assess, collinearity_assess,  residual_analysis, nonlinearity_assess_dynamic
+from SPA.dataset_property_new import nonlinearity_assess, collinearity_assess,  residual_analysis, nonlinearity_assess_dynamic
 from sklearn.preprocessing import StandardScaler
 
 import matplotlib as mpl
