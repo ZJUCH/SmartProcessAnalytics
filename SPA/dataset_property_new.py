@@ -10,12 +10,13 @@ Created on Thu Apr 11 14:33:20 2019
 
 import numpy as np
 #import data_ace
-import ace_R
+import SPA.ace_R as ace_R
 from sklearn.preprocessing import StandardScaler
 from sklearn.linear_model import LinearRegression
 from scipy.stats import f
 import matplotlib.pyplot as plt
-import seaborn.apionly as sns
+# import seaborn.apionly as sns
+import seaborn as sns
 from matplotlib.colors import LogNorm
 import math
 import pandas as pd
@@ -23,9 +24,9 @@ from statsmodels.stats.outliers_influence import variance_inflation_factor
 import statsmodels.stats.api as sms
 import statsmodels.api as sm
 import scipy.stats as stats
-import nonlinear_regression as nr
+import SPA.nonlinear_regression as nr
 from sklearn.feature_selection import f_regression
-from sklearn.linear_model.ridge import Ridge
+from sklearn.linear_model import Ridge
 
 import matplotlib.style
 import matplotlib as mpl

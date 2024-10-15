@@ -21,9 +21,9 @@ d = {'print.me': 'print_dot_me', 'print_me': 'print_uscore_me'}
 
 try:
     '''default R libarary path'''
-    ace = importr('acepack', robject_translations = d, lib_loc = "/Users/Vicky/Anaconda3/Lib/R/library")
+    ace = importr('acepack', robject_translations = d, lib_loc = "C:/Users/CH/anaconda3/envs/r/Lib/R/library")
 except:
-    ace = importr('acepack', robject_translations = d, lib_loc = "/Users/Vicky/Anaconda3/envs/rstudio/lib/R/library")
+    print("Please install acepack package in R library")
 
 
 def ace_R(x, y, cat = None):
